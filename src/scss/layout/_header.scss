@@ -1,0 +1,27 @@
+.nav-container {
+    @extend %center;
+    justify-content: space-between;
+
+    .logo {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+        width: 184px;
+        height: 60px;
+        flex-shrink: 0;
+    }
+
+    .navigation {
+        margin: 60px 40px;
+
+        .nav-list {
+            @extend %center;
+            gap: 35px;
+
+            .nav-item-first {
+                color: var(--color-light-s, #FAFAFA);
+            }
+        }
+    }
+}

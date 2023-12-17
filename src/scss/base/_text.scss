@@ -1,0 +1,61 @@
+h2 {
+    color: var(--color-dark-l, #545454);
+
+    /* h3 */
+
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    /* 45.5px */
+    letter-spacing: 2.1px;
+}
+
+h3 {
+    color: var(--color-light-xl, #FFF);
+
+    /* h3 */
+
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    /* 45.5px */
+    letter-spacing: 2.1px;
+}
+
+.text-title-log {
+    color: var(--color-primary, #F1CDB3);
+
+    /* logo_title */
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+    /* 35.2px */
+    letter-spacing: 1.92px;
+}
+
+.text-subtitle-logo {
+    color: var(--color-light-xl, #FFF);
+
+    /* logo_subtitle */
+    font-family: Arial;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.3px;
+}
+
+.nav-list {
+    color: var(--color-dark-s, #CDCDCD);
+
+    /* paragraph-l */
+    font-family: Arial;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    /* 24px */
+}
