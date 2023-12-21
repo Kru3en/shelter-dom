@@ -32,3 +32,8 @@ check_new_category("Our pets")
 
 # Закрытие браузера
 driver.quit()
+driver = webdriver.Edge(service=service, options=options)
+driver.get("https://kru3en.github.io/shelter-dom/pets.html")
+check_new_category("Cozy House")
+driver.quit()
+
