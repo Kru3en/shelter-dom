@@ -1,3 +1,15 @@
+h1 {
+    color: var(--color-light-xl, #FFF);
+
+    /* h2 */
+    font-family: Georgia;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    /* 57.2px */
+}
+
 h2 {
     color: var(--color-dark-l, #545454);
 
@@ -58,4 +70,91 @@ h3 {
     font-weight: 400;
     line-height: 160%;
     /* 24px */
+}
+
+.paragraph-l {
+    color: var(--color-dark-s, #CDCDCD);
+
+    /* paragraph-l */
+    font-family: Arial;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    /* 24px */
+}
+
+.name-pets-slider {
+    color: var(--color-dark-l, #545454);
+    text-align: center;
+    font-family: Georgia;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.2px;
+}
+
+.text-item-help {
+    color: var(--color-dark-l, #545454);
+    text-align: center;
+
+    /* h4 */
+    font-family: Georgia;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 115%;
+    /* 23px */
+    letter-spacing: 1.2px;
+}
+
+.subheading-donat {
+    color: var(--color-dark-l, #545454);
+
+    /* h5 */
+    font-family: Georgia;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+    /* 16.5px */
+    letter-spacing: 0.9px;
+}
+
+.legenda-donat {
+    color: var(--color-dark-m, #B2B2B2);
+    font-family: Arial;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 18px;
+    /* 150% */
+}
+
+.a-footer-text {
+    color: var(--color-primary, #F1CDB3);
+
+    /* h4 */
+    font-family: Georgia;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 115%;
+    /* 23px */
+    letter-spacing: 1.2px;
+    text-decoration: none;
+}
+
+.card-number {
+    color: var(--color-dark-l, #545454);
+
+    /* h4 */
+    font-family: Georgia;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 115%;
+    /* 23px */
+    letter-spacing: 1.2px;
 }

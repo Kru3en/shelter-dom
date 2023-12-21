@@ -15,6 +15,10 @@
             justify-content: center;
             align-items: flex-start;
             gap: 42px;
+
+            .h1-home {
+                max-width: 310px;
+            }
         }
 
         .start-screen-puppy {
@@ -25,6 +29,7 @@
 }
 
 .about-container {
+    background: #ffffff;
     @extend %section-padding;
     gap: 120px;
     display: flex;
@@ -45,6 +50,14 @@
         align-items: flex-start;
         gap: 25px;
         flex-shrink: 0;
+
+        .h2-about {
+            max-width: 370px;
+        }
+
+        .paragraph-l {
+            color: var(--color-dark-xl, #4C4C4C);
+        }
     }
 }
 
@@ -58,6 +71,11 @@
         justify-content: center;
         align-items: center;
         gap: 60px;
+
+        .h2-container {
+            max-width: 400px;
+            text-align: center;
+        }
 
         .slider-container {
             display: flex;
@@ -96,18 +114,24 @@
 }
 
 .help {
+    background: #ffffff;
     @extend %section-padding;
 
     .help-container {
         @extend %center;
         max-width: 1200px;
         max-height: 431px;
-        padding: 0px 87px;
+        padding: 0px 85px;
         flex-direction: column;
         justify-content: center;
 
         gap: 60px;
         flex-shrink: 0;
+
+        .h2-container {
+            max-width: 308px;
+            text-align: center;
+        }
 
         .help-list {
             display: flex;
@@ -155,7 +179,18 @@
             align-items: flex-start;
             gap: 20px;
             flex-shrink: 0;
+
+            .h2-container {
+                max-width: 300px;
+            }
+
+            .donation-card {
+                gap: 15px;
+                display: flex;
+                padding: 10px 15px;
+                border-radius: 9px;
+                background: var(--color-primary, #F1CDB3);
+            }
         }
     }
 }
-

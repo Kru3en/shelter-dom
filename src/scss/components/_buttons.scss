@@ -6,6 +6,7 @@
     gap: 10px;
     border-radius: 100px;
     background: var(--color-primary, #F1CDB3);
+    border: none;
 }
 
 .button-pets-slider {
@@ -16,6 +17,15 @@
     gap: 10px;
     border-radius: 100px;
     border: 2px solid #F1CDB3;
+
+    color: var(--color-dark-3xl, #292929);
+    font-family: Georgia;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    /* 22.1px */
+    letter-spacing: 1.02px;
 }
 
 .arrow-left {
@@ -42,7 +52,16 @@
     flex-direction: column;
     align-items: center;
     gap: 10px;
-
+    border: none;
     border-radius: 100px;
     background: var(--color-primary, #F1CDB3);
+
+    color: var(--color-dark-3xl, #292929);
+    font-family: Georgia;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    /* 22.1px */
+    letter-spacing: 1.02px;
 }

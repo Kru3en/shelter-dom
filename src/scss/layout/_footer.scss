@@ -1,5 +1,5 @@
 footer {
-    background: linear-gradient(to right, rgba(91, 72, 58, 1), rgba(38, 36, 37, 1));
+    background: linear-gradient(to right, rgba(81, 61, 47, 1), rgba(26, 26, 28, 1));
 
 }
 
@@ -19,7 +19,14 @@ footer {
 
         .not-footer {
             display: flex;
+            align-items: center;
             gap: 20px;
+
+            .a-img {
+                max-width: 40px;
+                max-height: 32px;
+                flex-shrink: 0;
+            }
         }
     }
 
@@ -34,8 +41,17 @@ footer {
 
         .not-footer {
             display: flex;
+            align-items: center;
             gap: 20px;
+
+            .a-img {
+                max-width: 22px;
+                max-height: 32px;
+                flex-shrink: 0;
+            }
         }
+
+
     }
 
 
